@@ -112,3 +112,9 @@ exports
 *.cache
 build
 .strapi-updater.json
+
+
+############################
+# images
+############################
+./public/uploads/**/*.{jpg,jpeg,png,gif,svg,webp}

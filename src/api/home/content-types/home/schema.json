@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ctaHeadline": {
+      "type": "text",
+      "required": true
+    },
+    "ctaSubheadline": {
+      "type": "text",
+      "required": true
+    },
+    "ctaBtnText": {
+      "type": "string",
+      "required": true
+    },
+    "ctaBtnHref": {
+      "type": "string",
+      "required": true
+    },
+    "mainBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
+    }
+  }
+}
